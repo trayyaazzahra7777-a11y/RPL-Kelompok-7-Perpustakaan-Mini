@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "bookId": 1,
+    "memberId": 1,
+    "loanDate": "2026-10-29T12:43:06.246Z",
+    "dueDate": "2026-11-05T12:43:06.246Z",
+    "returnDate": "2026-10-29T12:43:08.971Z",
+    "status": "returned"
+  },
+  {
+    "id": 2,
+    "bookId": 2,
+    "memberId": 2,
+    "loanDate": "2026-10-29T12:43:08.798Z",
+    "dueDate": "2026-11-05T12:43:08.798Z",
+    "returnDate": null,
+    "status": "active"
+  }
+]

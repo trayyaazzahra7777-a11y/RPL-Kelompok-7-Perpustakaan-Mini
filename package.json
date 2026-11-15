@@ -1,0 +1,21 @@
+{
+  "name": "perpustakaan-mini-api",
+  "version": "1.0.0",
+  "description": "Sistem Perpustakaan Mini - API Kelompok 7 dengan CI Pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node --check server.js client.js",
+    "lint": "node --check server.js client.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ci",
+    "github-actions",
+    "api",
+    "perpustakaan-mini",
+    "rpl"
+  ],
+  "author": "Kelompok 7",
+  "license": "ISC"
+}

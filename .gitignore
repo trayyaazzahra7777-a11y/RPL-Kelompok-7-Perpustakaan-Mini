@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Reference materials (Ketentuan tugas & materi kuliah RPL)
+Referensi/
+referensi/
+
+# Test data & runtime temporary fixtures
+tests/fixtures/*
+!tests/fixtures/.gitkeep
+!tests/fixtures/*.json
+.tmp/
+*.log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

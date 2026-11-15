@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "isbn": "9780140328721",
+    "title": "Fantastic Mr. Fox",
+    "author": "Roald Dahl",
+    "year": 1988,
+    "category": "Fiksi",
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "isbn": "9780132350884",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "category": "Teknologi",
+    "status": "borrowed"
+  },
+  {
+    "id": 3,
+    "isbn": "0451526538",
+    "title": "The adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "year": 1997,
+    "category": "Fiksi",
+    "status": "available"
+  }
+]
