@@ -267,7 +267,8 @@ test.describe('Automated Test Suite - Perpustakaan Mini API', async () => {
   test.describe('Endpoint Buku (/books)', () => {
     test('GET /books mengembalikan daftar semua buku dengan status 200', async () => {
       const res = await api('GET', '/books');
-      assert.equal(res.status, 200);
+      // SIMULASI KEGAGALAN CI: Ekspektasi status sengaja diubah dari 200 menjadi 201
+      assert.equal(res.status, 201);
       assert.ok(Array.isArray(res.body));
       assert.equal(res.body.length, 2);
       assert.equal(res.body[0].title, 'Fantastic Mr. Fox');
